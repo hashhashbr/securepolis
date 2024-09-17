@@ -1,0 +1,72 @@
+body {
+  background-color: rgba(128, 128, 128, 0.1); 
+  font-family: 'Orbitron', sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  color: #000000; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+button {
+  background-color: black; 
+  color: white; 
+  border: 2px solid black; 
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border-radius: 5px; 
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+
+button:hover {
+  background-color: red; 
+  color: black; 
+  border: 2px solid red;
+}
+
+
+input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+
+input:focus, input:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid red;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  button {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+}
